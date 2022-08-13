@@ -8,9 +8,9 @@ public class SumOfDigits {
 	public static void main(String[] args) 
 	{
 		Scanner sc =new Scanner(System.in);
-		System.out.println("1st");
+		System.out.println("Enter the First number");
 		int num1=sc.nextInt();
-		System.out.println("2nd");
+		System.out.println("Enter the Second Number");
 		int num2 =sc.nextInt();
 		int start=0,end=0,temp1=num1,temp2=num2,val=temp1,sum=0;boolean flag=false;
 		while (num1!=0)
